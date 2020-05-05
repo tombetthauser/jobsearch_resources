@@ -1,0 +1,243 @@
+* {
+	text-decoration: none;
+}
+
+body {
+	background-color: white;
+}
+
+#main {
+	background-color: white;
+	padding-top: 20px;
+	padding-bottom: 75px;
+}
+
+#spacer {
+	color: white;
+	height: 30px;
+	font-family: monospace;
+	font-size: 10px;
+	text-align: left;
+	line-height: 30px;
+	padding-left: 10px;
+	font-weight: 100;
+	transition: .2s;
+ }
+
+#spacer:hover {
+	color: grey;
+	transition: .2s;
+ }
+
+.bannerLight {
+  	background-size: 102%;
+	min-height: 125px; 
+  	background-attachment: fixed;
+  	background-position: top;
+  	background-repeat: no-repeat;
+  	transition: .75s;
+  	text-align: left;
+  	color: rgba(255,255,255,0);
+  	text-decoration: none;
+  	transition: .75s;
+  	padding-top: 10px; 
+  	padding-left: 80px; 
+  	letter-spacing: 3px;
+  	text-shadow: 1px 1px 0px rgba(0,0,0,0);
+  	font-size: 12px;
+  	font-weight: 100;
+}
+
+.bannerLight:hover {
+  	background-size: 115%;
+	min-height: 500px; 
+  	transition: 2.5s;
+  	color: rgba(255,255,255,1);
+  	text-decoration: none;
+  	transition: 2.5s;
+  	padding-left: 10px; 
+  	letter-spacing: .75px;
+}
+
+.bannerDark {
+  	background-size: 103%;
+	min-height: 125px; 
+  	background-attachment: fixed;
+  	background-position: top;
+  	background-repeat: no-repeat;
+  	transition: .75s;
+  	text-align: left;
+  	color: rgba(255,255,255,0);
+  	text-decoration: none;
+  	transition: .75s;
+  	padding-top: 10px; 
+  	padding-left: 80px; 
+  	letter-spacing: 3px;
+  	text-shadow: 1px 1px 0px rgba(0,0,0,0);
+  	font-size: 12px;
+  	font-weight: 800;
+}
+
+.bannerDark:hover {
+  	background-size: 115%;
+	min-height: 500px; 
+  	transition: 2.5s;
+  	color: rgba(255,255,255,1);
+  	text-decoration: none;
+  	transition: 2.5s;
+  	padding-left: 10px; 
+  	letter-spacing: .75px;
+  	text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+
+}
+
+#imgSpan:hover {
+	text-decoration: none;
+}
+
+.textDark {
+	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+}
+
+#main h1 {
+	font-family: sans-serif;
+	font-weight: 100;
+	color: black;
+	font-size: 30px;
+	/*letter-spacing: .3vw;*/
+}
+
+.sub-title {
+	display: block;
+	font-family: sans-serif;
+	font-weight: 100;
+	color: black;
+	font-size: 15px;
+	margin: -10px auto 15px;
+	/*letter-spacing: .2vw;*/
+}
+
+.footer {
+}
+
+.button {
+	margin-top: 50px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	background-color: #baba96;
+	border: none;
+	height: 22.5px;
+	width: 200px;
+	border-radius: 5px;
+	opacity: 1;
+	transition: .2s;
+	font-weight: 100;
+}
+
+.button:hover {
+	cursor: pointer;
+	transition: .2s;
+	opacity: .9;
+}
+
+input {
+	width: 250px;
+}
+
+.card {
+	background-color: rgba(0,0,0,.1);
+	margin: 5px;
+	width: 275px;
+	border-radius: 10px;
+	opacity: 1;
+	transition: .2s;
+	color: black;
+	line-height: 7.5px;
+	padding: 10px;
+}
+
+.card:hover {
+	opacity: .7;
+	transition: .2s;
+	cursor: pointer;
+}
+
+.card a {
+	text-decoration: none;
+	color: black;
+}
+
+.card h2 {
+	font-size: 17.5px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+.card p {
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 12.5px;
+}
+
+.search {
+	text-align: center;
+	width: 100%;
+	padding: 3px 6px;
+	margin: -15px auto 15px;
+}
+
+#mainSearch {
+	width: 275px;
+	border-radius: 3px;
+	border: solid 1px rgba(0,0,0,.2);
+	margin: 20px auto;
+	display: block;
+	font-weight: 100;
+	font-size: 13px;
+
+}
+
+.foot-txt {
+	font-family: sans-serif;
+	margin: 70px auto;
+	display: block;
+	font-size: 12px;
+	opacity: .5;
+	transition: .5s;
+	border-top: solid 1px grey;
+	padding-top: 25px; 
+	max-width: 900px;
+	width: 70%;
+	text-decoration: none;
+	color: black;
+}
+
+.foot-txt a {
+	text-decoration: none;
+	color: black;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	opacity: .2;
+	font-weight: 100;
+	font-size: 13px;
+	letter-spacing: .75px;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	opacity: .2;
+	font-weight: 100;
+	font-size: 13px;
+	letter-spacing: .75px;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	opacity: .2;
+	font-weight: 100;
+	font-size: 13px;
+	letter-spacing: .75px;
+}
+:-moz-placeholder { /* Firefox 18- */
+	opacity: .2;
+	font-weight: 100;
+	font-size: 13px;
+	letter-spacing: .75px;
+}
